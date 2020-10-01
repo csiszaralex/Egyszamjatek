@@ -72,7 +72,7 @@ export default class Content {
             .toString()
             .split("\n")
             .forEach(x => res.write(`${x}\n`));
-        res.write("\n<u>Github repository: </u><a href='https://github.com/csiszaralex/egyszamjatek'>GutHub</a>");
+        res.write("\n<u>Github repository: </u><a href='https://github.com/csiszaralex/egyszamjatek'>GitHub</a>");
         // <---- Fejezd be a kódolást
 
         res.write("</pre></form>");
